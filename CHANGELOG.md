@@ -6,3 +6,4 @@
 - Flat `skills/` layout (workflow + visual-type skills).
 - MCP SSE endpoint: `https://api.edithly.com/api/v1/mcp/sse`.
 - `plugin.json` metadata: displayName, repository, license, keywords covering all MCP tools and visual types.
+- MCP auth switched to **OAuth** (AS discovery + DCR/PKCE); removed Bearer `EDITHLY_ACCESS_TOKEN` header config.

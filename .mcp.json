@@ -3,8 +3,9 @@
     "edithly": {
       "type": "sse",
       "url": "https://api.edithly.com/api/v1/mcp/sse",
-      "headers": {
-        "Authorization": "Bearer ${EDITHLY_ACCESS_TOKEN}"
+      "oauth": {
+        "authServerMetadataUrl": "https://api.edithly.com/.well-known/oauth-authorization-server",
+        "scopes": "visuals:read visuals:write projects:read exports:create"
       }
     }
   }
