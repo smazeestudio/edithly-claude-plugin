@@ -1,9 +1,40 @@
 {
   "name": "edithly",
-  "description": "Create and edit Edithly visuals from Claude Code.",
+  "displayName": "Edithly",
   "version": "1.0.0",
+  "description": "Create interactive visuals, study materials, presentations, and GTM content with Edithly.",
   "author": {
     "name": "Edithly"
   },
-  "homepage": "https://edithly.com"
+  "homepage": "https://edithly.com",
+  "repository": "https://github.com/smazeestudio/edithly-claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "visuals",
+    "infographic",
+    "flashcards",
+    "mcq",
+    "mindmap",
+    "cheatcode",
+    "presentations",
+    "study",
+    "glossary",
+    "timeline",
+    "comparison",
+    "brochure",
+    "one-pager",
+    "case-study",
+    "action-plan",
+    "use-cases",
+    "kanban",
+    "roi",
+    "gtm",
+    "poster",
+    "question-paper",
+    "showcase",
+    "mcp",
+    "create-visual",
+    "create-image",
+    "export-visual"
+  ]
 }
