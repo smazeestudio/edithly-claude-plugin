@@ -1,0 +1,19 @@
+{
+  "page_title": "ML Glossary",
+  "visual_type": "glossary",
+  "color_theme": "arctic_aurora",
+  "sections": [
+    {
+      "component_type": "accordion",
+      "section_id": "terms-a",
+      "col_span": 12,
+      "title": "A\u2013E",
+      "items": [
+        {
+          "title": "Accuracy",
+          "content": "Fraction of correct predictions."
+        }
+      ]
+    }
+  ]
+}

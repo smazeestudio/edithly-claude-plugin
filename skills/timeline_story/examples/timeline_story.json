@@ -1,0 +1,26 @@
+{
+  "page_title": "History of the Internet",
+  "visual_type": "timeline_story",
+  "color_theme": "ocean_deep",
+  "sections": [
+    {
+      "component_type": "jumbotron",
+      "section_id": "hero",
+      "col_span": 12,
+      "title": "History of the Internet"
+    },
+    {
+      "component_type": "timeline",
+      "section_id": "timeline-main",
+      "col_span": 12,
+      "title": "Key Milestones",
+      "items": [
+        {
+          "date": "1969",
+          "title": "ARPANET launched",
+          "content": "First packet-switched network."
+        }
+      ]
+    }
+  ]
+}

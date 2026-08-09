@@ -1,0 +1,33 @@
+{
+  "page_title": "Python Cheatsheet",
+  "visual_type": "cheatcode",
+  "color_theme": "ocean_deep",
+  "sections": [
+    {
+      "component_type": "jumbotron",
+      "section_id": "hero",
+      "col_span": 12,
+      "title": "Python Cheatsheet",
+      "subtitle": "Essential syntax at a glance"
+    },
+    {
+      "component_type": "code_block",
+      "section_id": "lists-code",
+      "col_span": 6,
+      "title": "Lists",
+      "language": "python",
+      "code": "lst = [1, 2, 3]\nlst.append(4)"
+    },
+    {
+      "component_type": "list",
+      "section_id": "list-methods",
+      "col_span": 6,
+      "title": "List Methods",
+      "items": [
+        "append(x)",
+        "extend(iter)",
+        "pop(i)"
+      ]
+    }
+  ]
+}

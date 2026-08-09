@@ -1,0 +1,35 @@
+{
+  "page_title": "Acme Customer Story",
+  "visual_type": "case_study",
+  "color_theme": "forest_sage",
+  "sections": [
+    {
+      "component_type": "jumbotron",
+      "section_id": "hero",
+      "col_span": 12,
+      "title": "How Acme cut support time 35%"
+    },
+    {
+      "component_type": "stats_grid",
+      "section_id": "results",
+      "col_span": 12,
+      "items": [
+        {
+          "label": "Support time",
+          "value": "-35%"
+        },
+        {
+          "label": "NPS",
+          "value": "+18"
+        }
+      ]
+    },
+    {
+      "component_type": "text_block",
+      "section_id": "challenge",
+      "col_span": 12,
+      "title": "Challenge",
+      "content": "Ticket volume grew 3x while headcount stayed flat."
+    }
+  ]
+}

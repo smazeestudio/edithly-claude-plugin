@@ -1,0 +1,25 @@
+{
+  "page_title": "Edithly",
+  "visual_type": "brochure",
+  "color_theme": "rose_quartz",
+  "sections": [
+    {
+      "component_type": "jumbotron",
+      "section_id": "hero",
+      "col_span": 12,
+      "title": "Create Stunning Visuals"
+    },
+    {
+      "component_type": "feature_grid",
+      "section_id": "features",
+      "col_span": 12,
+      "title": "What you get",
+      "items": [
+        {
+          "title": "10+ Visual Types",
+          "content": "Cheatsheets, mindmaps, and more"
+        }
+      ]
+    }
+  ]
+}

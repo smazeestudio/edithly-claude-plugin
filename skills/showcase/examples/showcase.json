@@ -1,0 +1,23 @@
+{
+  "page_title": "Jane Doe \u2014 Engineer",
+  "visual_type": "showcase",
+  "color_theme": "volcanic_ember",
+  "sections": [
+    {
+      "component_type": "jumbotron",
+      "section_id": "hero",
+      "col_span": 12,
+      "title": "Jane Doe",
+      "subtitle": "Engineer"
+    },
+    {
+      "component_type": "chip_group",
+      "section_id": "skills",
+      "col_span": 12,
+      "items": [
+        "Python",
+        "React"
+      ]
+    }
+  ]
+}

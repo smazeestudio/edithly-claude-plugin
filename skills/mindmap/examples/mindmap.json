@@ -1,0 +1,37 @@
+{
+  "page_title": "Machine Learning Mindmap",
+  "visual_type": "mindmap",
+  "color_theme": "cosmic_purple",
+  "sections": [
+    {
+      "component_type": "mind_map",
+      "section_id": "ml-map",
+      "col_span": 12,
+      "title": "Machine Learning",
+      "nodes": {
+        "label": "Machine Learning",
+        "children": [
+          {
+            "label": "Supervised",
+            "children": [
+              {
+                "label": "Regression"
+              },
+              {
+                "label": "Classification"
+              }
+            ]
+          },
+          {
+            "label": "Unsupervised",
+            "children": [
+              {
+                "label": "Clustering"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

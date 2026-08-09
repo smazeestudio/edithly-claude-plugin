@@ -1,0 +1,23 @@
+{
+  "page_title": "Intro to Docker",
+  "visual_type": "presentation",
+  "color_theme": "midnight_noir",
+  "sections": [
+    {
+      "component_type": "jumbotron",
+      "section_id": "slide-1",
+      "col_span": 12,
+      "title": "Introduction to Docker"
+    },
+    {
+      "component_type": "list",
+      "section_id": "slide-2",
+      "col_span": 12,
+      "title": "Agenda",
+      "items": [
+        "What is Docker?",
+        "Images vs Containers"
+      ]
+    }
+  ]
+}

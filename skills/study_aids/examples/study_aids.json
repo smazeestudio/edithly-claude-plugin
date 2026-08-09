@@ -1,0 +1,28 @@
+{
+  "page_title": "Python Study Pack",
+  "visual_type": "study_aids",
+  "color_theme": "sky_canvas",
+  "sections": [
+    {
+      "component_type": "hero_section",
+      "section_id": "hero",
+      "content": {
+        "title": "Python Study Pack",
+        "subtitle": "Core syntax"
+      }
+    },
+    {
+      "component_type": "flashcard",
+      "section_id": "py-cards",
+      "content": {
+        "title": "Quick Cards",
+        "cards": [
+          {
+            "front": "What is a list?",
+            "back": "A mutable ordered collection."
+          }
+        ]
+      }
+    }
+  ]
+}

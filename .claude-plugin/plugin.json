@@ -1,0 +1,9 @@
+{
+  "name": "edithly",
+  "description": "Create and edit Edithly visuals from Claude Code.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Edithly"
+  },
+  "homepage": "https://edithly.com"
+}

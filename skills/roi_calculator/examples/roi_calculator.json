@@ -1,0 +1,48 @@
+{
+  "page_title": "Automation ROI",
+  "visual_type": "roi_calculator",
+  "color_theme": "volcanic_ember",
+  "sections": [
+    {
+      "component_type": "jumbotron",
+      "section_id": "hero",
+      "col_span": 12,
+      "title": "Automation ROI"
+    },
+    {
+      "component_type": "stats_grid",
+      "section_id": "roi",
+      "col_span": 12,
+      "items": [
+        {
+          "label": "Annual savings",
+          "value": "$240k"
+        },
+        {
+          "label": "Payback",
+          "value": "4 mo"
+        }
+      ]
+    },
+    {
+      "component_type": "table",
+      "section_id": "assumptions",
+      "col_span": 12,
+      "title": "Assumptions",
+      "headers": [
+        "Input",
+        "Value"
+      ],
+      "rows": [
+        [
+          "Hours saved / week",
+          "120"
+        ],
+        [
+          "Loaded cost / hour",
+          "$75"
+        ]
+      ]
+    }
+  ]
+}

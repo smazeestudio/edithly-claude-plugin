@@ -1,0 +1,42 @@
+{
+  "page_title": "Product One-Pager",
+  "visual_type": "one_pager",
+  "color_theme": "ocean_deep",
+  "sections": [
+    {
+      "component_type": "jumbotron",
+      "section_id": "hero",
+      "col_span": 12,
+      "title": "Acme Platform",
+      "subtitle": "Ship faster with AI"
+    },
+    {
+      "component_type": "stats_grid",
+      "section_id": "metrics",
+      "col_span": 12,
+      "items": [
+        {
+          "label": "Time saved",
+          "value": "40%"
+        }
+      ]
+    },
+    {
+      "component_type": "list",
+      "section_id": "benefits",
+      "col_span": 12,
+      "title": "Benefits",
+      "items": [
+        "Faster onboarding",
+        "Lower support cost"
+      ]
+    },
+    {
+      "component_type": "callout",
+      "section_id": "cta",
+      "col_span": 12,
+      "content": "Book a demo this week.",
+      "variant": "success"
+    }
+  ]
+}

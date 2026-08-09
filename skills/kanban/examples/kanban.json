@@ -1,0 +1,33 @@
+{
+  "page_title": "Sprint Board",
+  "visual_type": "kanban",
+  "color_theme": "midnight_noir",
+  "sections": [
+    {
+      "component_type": "jumbotron",
+      "section_id": "hero",
+      "col_span": 12,
+      "title": "Sprint Board"
+    },
+    {
+      "component_type": "feature_grid",
+      "section_id": "board",
+      "col_span": 12,
+      "title": "Columns",
+      "items": [
+        {
+          "title": "Todo",
+          "content": "Spec auth flow \u00b7 Write MCP tests"
+        },
+        {
+          "title": "Doing",
+          "content": "Ship skills packaging"
+        },
+        {
+          "title": "Done",
+          "content": "Catalog contracts"
+        }
+      ]
+    }
+  ]
+}

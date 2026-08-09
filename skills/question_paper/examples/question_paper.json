@@ -1,0 +1,24 @@
+{
+  "page_title": "CS Midterm",
+  "visual_type": "question_paper",
+  "color_theme": "ocean_deep",
+  "sections": [
+    {
+      "component_type": "jumbotron",
+      "section_id": "hero",
+      "col_span": 12,
+      "title": "Computer Science Midterm",
+      "subtitle": "Time: 90 minutes \u00b7 Max marks: 50"
+    },
+    {
+      "component_type": "list",
+      "section_id": "section-a",
+      "col_span": 12,
+      "title": "Section A \u2014 Short answers (10 marks)",
+      "items": [
+        "1. Define a process.",
+        "2. What is virtual memory?"
+      ]
+    }
+  ]
+}

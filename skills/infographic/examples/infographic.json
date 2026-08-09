@@ -1,0 +1,25 @@
+{
+  "page_title": "Climate Change Facts",
+  "visual_type": "infographic",
+  "color_theme": "forest_sage",
+  "sections": [
+    {
+      "component_type": "jumbotron",
+      "section_id": "hero",
+      "col_span": 12,
+      "title": "Climate Change",
+      "subtitle": "Key facts"
+    },
+    {
+      "component_type": "stats_grid",
+      "section_id": "stats",
+      "col_span": 12,
+      "items": [
+        {
+          "label": "Temp rise",
+          "value": "1.1\u00b0C"
+        }
+      ]
+    }
+  ]
+}

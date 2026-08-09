@@ -1,0 +1,41 @@
+{
+  "page_title": "Q3 Launch Plan",
+  "visual_type": "action_plan",
+  "color_theme": "golden_hour",
+  "sections": [
+    {
+      "component_type": "jumbotron",
+      "section_id": "hero",
+      "col_span": 12,
+      "title": "Q3 Launch Plan"
+    },
+    {
+      "component_type": "timeline",
+      "section_id": "phases",
+      "col_span": 12,
+      "title": "Phases",
+      "items": [
+        {
+          "date": "Week 1",
+          "title": "Discovery",
+          "content": "Finalize requirements and owners."
+        },
+        {
+          "date": "Week 4",
+          "title": "Beta",
+          "content": "Ship to 20 design partners."
+        }
+      ]
+    },
+    {
+      "component_type": "list",
+      "section_id": "owners",
+      "col_span": 12,
+      "title": "Owners",
+      "items": [
+        "Product: Maya",
+        "Eng: Jordan"
+      ]
+    }
+  ]
+}

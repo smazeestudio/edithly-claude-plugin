@@ -1,0 +1,29 @@
+{
+  "page_title": "Platform Use Cases",
+  "visual_type": "use_cases",
+  "color_theme": "arctic_aurora",
+  "sections": [
+    {
+      "component_type": "jumbotron",
+      "section_id": "hero",
+      "col_span": 12,
+      "title": "Platform Use Cases"
+    },
+    {
+      "component_type": "feature_grid",
+      "section_id": "cases",
+      "col_span": 12,
+      "title": "Scenarios",
+      "items": [
+        {
+          "title": "Sales enablement",
+          "content": "Turn calls into one-pagers in minutes."
+        },
+        {
+          "title": "Training",
+          "content": "Convert docs into flashcards and quizzes."
+        }
+      ]
+    }
+  ]
+}

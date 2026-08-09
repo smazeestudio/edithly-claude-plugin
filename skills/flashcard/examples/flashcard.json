@@ -1,0 +1,19 @@
+{
+  "page_title": "FastAPI MCQ Quiz",
+  "visual_type": "flashcard",
+  "color_theme": "midnight_noir",
+  "sections": [
+    {
+      "component_type": "flashcard",
+      "section_id": "deck-1",
+      "col_span": 12,
+      "title": "Architecture",
+      "items": [
+        {
+          "front": "What port does the server listen on?",
+          "back": "8080"
+        }
+      ]
+    }
+  ]
+}

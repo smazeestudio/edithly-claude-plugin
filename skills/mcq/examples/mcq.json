@@ -1,0 +1,25 @@
+{
+  "page_title": "Python Basics Quiz",
+  "visual_type": "mcq",
+  "color_theme": "midnight_noir",
+  "sections": [
+    {
+      "component_type": "jumbotron",
+      "section_id": "hero",
+      "col_span": 12,
+      "title": "Python Basics Quiz"
+    },
+    {
+      "component_type": "list",
+      "section_id": "q1",
+      "col_span": 12,
+      "title": "Q1: Which is mutable?",
+      "items": [
+        "A) tuple",
+        "B) list",
+        "C) str",
+        "Answer: B) list"
+      ]
+    }
+  ]
+}

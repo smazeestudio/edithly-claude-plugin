@@ -1,0 +1,25 @@
+{
+  "page_title": "SQL vs NoSQL",
+  "visual_type": "comparison",
+  "color_theme": "golden_hour",
+  "sections": [
+    {
+      "component_type": "table",
+      "section_id": "compare-table",
+      "col_span": 12,
+      "title": "Feature Comparison",
+      "headers": [
+        "Feature",
+        "SQL",
+        "NoSQL"
+      ],
+      "rows": [
+        [
+          "Schema",
+          "Rigid",
+          "Flexible"
+        ]
+      ]
+    }
+  ]
+}
