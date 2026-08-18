@@ -31,9 +31,11 @@
     "poster",
     "question-paper",
     "showcase",
+    "solvesheet",
     "mcp",
     "create-visual",
     "create-image",
+    "create-solvesheet",
     "export-visual"
   ]
 }

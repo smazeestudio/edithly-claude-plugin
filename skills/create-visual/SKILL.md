@@ -5,7 +5,7 @@ description: "Create an Edithly visual from a topic, conversation, document, or 
 
 # Create an Edithly visual
 
-Use this skill when the user asks to create, generate, convert, visualize, present, summarize visually, or turn content into an interactive visual (except pure image/poster requests — use create-image).
+Use this skill when the user asks to create, generate, convert, visualize, present, summarize visually, or turn content into an interactive visual (except pure image/poster requests — use create-image; except worked solutions — use create-solvesheet).
 
 ## Process
 
@@ -21,6 +21,7 @@ Use this skill when the user asks to create, generate, convert, visualize, prese
 
 - Never invent or display a local filename/path (e.g. `*.pdf`). Prefer the interactive `view_url`.
 - For `visual_type == "image"` use the **create-image** skill / `create_image` tool instead.
+- For `visual_type == "solvesheet"` use the **create-solvesheet** skill / `create_solvesheet` tool instead. Do not invent solution steps.
 - For presentations use `page_size="16:9"`.
 - Do not show raw `design_json` to the user unless they ask.
 - Ask only for information that materially affects generation (type preference, theme). Do not ask for a save path unless the user wants a local file.

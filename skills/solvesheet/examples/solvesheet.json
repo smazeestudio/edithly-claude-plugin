@@ -1,0 +1,49 @@
+{
+  "page_title": "Cheatcode Style Solution",
+  "visual_type": "solvesheet",
+  "page_format": "board",
+  "sheet_theme": "sketchnote",
+  "example_id": "Example 4.3",
+  "question": {
+    "text": "The motion of a particle of mass m is described by y = (1/2)ut - (1/2)gt^2. Find the force acting on the particle.",
+    "highlight": "y = \\frac{1}{2} ut - \\frac{1}{2} gt^2",
+    "ask": "Find the force acting on the particle."
+  },
+  "steps": [
+    {
+      "n": 1,
+      "label": "Step 1",
+      "tone": "given",
+      "title": "Write the given motion",
+      "why": "Start from y(t) so you can redo this first line.",
+      "math": ["y = \\frac{1}{2} ut - \\frac{1}{2} gt^2"]
+    },
+    {
+      "n": 2,
+      "label": "Step 2",
+      "tone": "method",
+      "title": "Velocity is dy/dt",
+      "why": "Differentiate each term with the power rule.",
+      "math": ["v = \\frac{dy}{dt}", "v = \\frac{1}{2}u - gt"]
+    },
+    {
+      "n": 3,
+      "label": "Step 3",
+      "tone": "apply",
+      "title": "Apply F = ma",
+      "why": "The minus sign means the force is downward.",
+      "math": ["F = ma = -mg"],
+      "boxed": "F = -mg \\hat{j}"
+    }
+  ],
+  "final_answer": {
+    "prefix": "Final Answer :",
+    "value": "F = -mg \\hat{j}",
+    "suffix": "(downward)."
+  },
+  "try_yourself": [
+    "Write y(t) without looking.",
+    "Differentiate to get v, then a.",
+    "What does the minus sign in F tell you?"
+  ]
+}
