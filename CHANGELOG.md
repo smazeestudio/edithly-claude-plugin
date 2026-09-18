@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Add `.claude-plugin/marketplace.json` so `/plugin marketplace add smazeestudio/edithly-claude-plugin` works.
+
 ## 1.0.0 — 2026-08-09
 
 - Initial Claude Code plugin package.

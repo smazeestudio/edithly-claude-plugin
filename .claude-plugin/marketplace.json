@@ -1,0 +1,31 @@
+{
+  "name": "edithly-plugins",
+  "owner": {
+    "name": "Edithly",
+    "url": "https://edithly.com"
+  },
+  "metadata": {
+    "description": "Edithly plugins for creating interactive visuals, study materials, presentations, and GTM assets.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "edithly",
+      "source": "./",
+      "description": "Create interactive visuals, presentations, study aids, and GTM assets with Edithly MCP.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Edithly"
+      },
+      "homepage": "https://edithly.com",
+      "repository": "https://github.com/smazeestudio/edithly-claude-plugin",
+      "license": "MIT",
+      "keywords": [
+        "visuals",
+        "infographic",
+        "flashcards",
+        "mcp"
+      ]
+    }
+  ]
+}

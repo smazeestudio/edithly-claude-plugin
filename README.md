@@ -21,14 +21,26 @@ Turn conversations and content into interactive visuals.
 
 ## Installation
 
-Install Edithly from the Claude plugin marketplace, or point Claude Code at this repository.
+In Claude Code, add this repository as a marketplace, then install the plugin:
 
-```bash
-# if using the git submodule from sketch-backend
-git submodule update --init plugins/edithly-claude-plugin
+```text
+/plugin marketplace add smazeestudio/edithly-claude-plugin
+/plugin install edithly@edithly-plugins
 ```
 
-Marketplace source: [smazeestudio/edithly-claude-plugin](https://github.com/smazeestudio/edithly-claude-plugin)
+This repo is both the **marketplace catalog** (`.claude-plugin/marketplace.json`) and the **plugin** (`.claude-plugin/plugin.json`). Adding the plugin URL as a marketplace without `marketplace.json` fails with “no manifest found.”
+
+Local development (from the directory above the plugin):
+
+```bash
+claude --plugin-dir ./edithly-claude-plugin
+```
+
+If using the git submodule from sketch-backend:
+
+```bash
+git submodule update --init plugins/edithly-claude-plugin
+```
 
 ## Authentication
 
@@ -61,7 +73,9 @@ Edithly skills guide Claude to call the shared Edithly MCP tools (`get_visual_ty
 
 ```text
 edithly-claude-plugin/
-├── .claude-plugin/plugin.json
+├── .claude-plugin/
+│   ├── marketplace.json    # required for /plugin marketplace add
+│   └── plugin.json
 ├── skills/                 # flat: workflows + visual types
 ├── .mcp.json
 ├── README.md
