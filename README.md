@@ -48,7 +48,7 @@ Connect your Edithly account when prompted.
 
 MCP uses **OAuth** against Edithly’s authorization server. In Claude Code, open `/mcp` and authenticate the `edithly` server (browser sign-in). No API key environment variable is required.
 
-- MCP: `https://api.edithly.com/api/v1/mcp/sse`
+- MCP (Streamable HTTP): `https://api.edithly.com/api/v1/mcp`
 - OAuth discovery: `https://api.edithly.com/.well-known/oauth-authorization-server`
 
 ## Example prompts
