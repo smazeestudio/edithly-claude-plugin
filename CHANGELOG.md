@@ -3,6 +3,7 @@
 ## Unreleased
 
 - Add `.claude-plugin/marketplace.json` so `/plugin marketplace add smazeestudio/edithly-claude-plugin` works.
+- MCP transport switched from SSE to Streamable HTTP: `https://api.edithly.com/api/v1/mcp`.
 
 ## 1.0.0 — 2026-08-09
 

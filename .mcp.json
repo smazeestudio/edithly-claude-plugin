@@ -1,8 +1,8 @@
 {
   "mcpServers": {
     "edithly": {
-      "type": "sse",
-      "url": "https://api.edithly.com/api/v1/mcp/sse",
+      "type": "http",
+      "url": "https://api.edithly.com/api/v1/mcp",
       "oauth": {
         "authServerMetadataUrl": "https://api.edithly.com/.well-known/oauth-authorization-server",
         "scopes": "visuals:read visuals:write projects:read exports:create"
